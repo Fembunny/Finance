@@ -1,0 +1,375 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important; 
+}
+
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #C0C0C0;
+    height: 90px;
+}
+
+.logo {
+    padding: 0px;
+    width: 7%;
+}
+
+.menu {
+    width: 62%;
+    float: right;
+}
+
+.menu-urls {
+    height: 58px;
+    border-bottom: 3px solid #efefef;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 17px;
+    height: 41px;
+}
+    
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+    
+.menu ul li a:hover {
+    color: #00bac6;     
+}
+    
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu-servicos {
+    width: 100%;
+    background-color: #ffffff;
+    height: 600px;
+}
+
+.col-1 {
+    text-align: left;
+    padding: 30px 187px 50px 1px;
+    float: left;
+    position: relative;
+}
+
+.col-1 p {
+    text-align: left;
+    color: #8b8b8b;
+    font-size: 19px;
+}
+
+
+.bloco-texto {
+    width: 40%;
+    display: inline-block;
+    color: #00bac6;
+    padding-top: 0px;
+}
+
+
+.col-2 {
+    text-align: left;
+    padding: 0px 10px 50px 178px;
+    float: right;
+    position: relative;
+}
+
+.col-2 p {
+    text-align: left;
+    color: #8b8b8b;
+    font-size: 19px;
+}
+
+.menu-simulacao {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    height: 520px;
+}
+
+.emprestimo  {
+    background-color: #efefef;
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    height: 350px;
+    padding: 20px 80px 20px 80px
+}
+
+.emprestimo p,  label{
+    color: #8b8b8b;
+    font-size: 19px;
+}
+
+.emprestimo input:focus-visible {
+    outline: 1px solid #00bac6;
+}
+
+.emprestimo input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px, 1px, 6px #8b8b8b;
+}
+
+.tipo {
+    float: left;
+    padding-right: 77%;
+
+}
+
+.opcoes {
+    float: left;
+
+}
+
+.titulo {
+    color: #00bac6;
+    text-align: center;
+    padding: 10px 80px 10px 80px
+}
+
+.ValorInput{
+    width: 30%;
+    float: left;
+    padding: 30px 50px 20px 0px;
+}
+
+.qtdMeses {
+    width: 30%;
+    float: right;
+    padding: 30px 50px 20px 0px;
+}
+
+.qtdMeses {
+    text-align: center;
+    width: 30%;
+    padding: 30px 0px 20px 50px;
+}
+
+.simulacao input {
+    height: 36px;
+    padding: 15px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
+}
+
+.containerMain {
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 900px;
+}
+    
+.containerMain h1{
+    font-size: 29px;
+    color: #fff;
+    background: #00bac6;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+} 
+
+.containerMain .inicioDuvidas{
+    position: relative;
+    background-color:  #fff;
+    padding: 20px 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.containerMain input{
+    appearance: none;
+}
+    
+.containerMain .inicioDuvidas label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+    
+.containerMain .inicioDuvidas label::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    color: #000;
+    transition: transform 1s; 
+    font-size: 2em;
+}
+    
+.containerMain .inicioDuvidas input:checked ~ label::after {
+    transform: rotate(135deg);
+    color: #f5f8ff;
+}
+
+.containerMain .inicioDuvidas label h2 {
+    width: 40px;
+    height: 40px;
+    background: #00bac6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.25rem;
+    margin-right: 10px;
+}
+     
+.containerMain .inicioDuvidas label h3{
+    position: relative;
+    font-weight: 500;
+    color: #333;
+    z-index: 10;
+}
+    
+.containerMain .inicioDuvidas .content {
+    max-height: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.containerMain .inicioDuvidas input:checked ~ .content {
+    max-height: 100vh;
+}
+
+.containerMain .inicioDuvidas .content p {
+    position: relative;
+    padding: 10px 0;
+    color: #333;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+.content-footer {
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+}
+
+.footer {
+    text-align: left;
+    width: 100%;
+    background-color: #C0C0C0;
+    height: 350px;
+    color: black;
+}
+
+h4 {
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.col-4 {
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 20%;
+    float: left;
+    position: relative;
+    margin-top: 30px;
+}
+
+.col-4 p, span{
+    float: left;
+    margin-left: 15px;
+}
+
+.clock:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/clock.png");
+    float: left;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+
+
+.local:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/local.png");
+    float: left;
+    background-repeat: no-repeat;
+    padding: 5px;
+    padding-top: 14px;
+}
+
+
+.email:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/email.png");
+    float: left;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+
+.telefone:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/telefoneico.png");
+    float: left;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+
+.footer-2 {
+    width: 100%;
+    background-color: #3f3f3f;
+    height: 80px;
+}
+
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 60%;
+    float: right;
+}

@@ -1,0 +1,284 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important; 
+}
+
+main, .content {
+    margin: 0 auto;
+    width: 1500px;
+    position: relative;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #C0C0C0;
+    height: 90px;
+}
+
+.logo {
+    padding: 0px;
+    width: 7%;
+}
+
+.menu {
+    width: 62%;
+    float: right;
+}
+
+.menu-urls {
+    height: 58px;
+    border-bottom: 3px solid #efefef;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 17px;
+    height: 41px;
+}
+    
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+    
+.menu ul li a:hover {
+    color: #00bac6;     
+}
+    
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.header-2 {
+    width: 100%;
+    background-color: #ffffff;
+    height: 450px;
+}
+
+.titulo-inicial {
+    width: 40%;
+    display: inline-block;
+    color: #00bac6;
+    padding: 90px 0px 60px 90px;
+}
+
+.apresentacao{
+    color: #8b8b8b;
+    font-size: 19px;
+}
+
+.slider {
+    width: 45%;
+    height: 380px;
+    float: right;
+    position: relative;
+    padding: 20px 40px;
+}
+
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/anterior.png);
+    top: 40%;
+    left: 15%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/proximo.png);
+    top: 40%;
+    right: 15%;
+}
+
+.slick-list {
+    width: 100%!important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 2px solid #ffffff;
+    width: 19px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 44%;
+    top: 330px;
+}
+
+li.slick-active button {
+     background-color: #00bac6;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu-servicos {
+    text-align: center;
+    width: 100%;
+    background-color: #efefef;
+    height: 400px;
+}
+
+.col-3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 30%;
+    float: left;
+    position: relative;
+}
+
+.col-3 a:hover {
+    color: #00bac6; 
+}
+    
+.col-3 a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.col-3 p {
+    text-align: left;
+    margin-left: 15px;
+    color: #8b8b8b;
+    font-size: 18px;
+}
+
+.bloco-texto {
+    margin-top: 85px;
+}
+
+.content-footer {
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+}
+
+.footer {
+    text-align: left;
+    width: 100%;
+    background-color: #C0C0C0;
+    height: 350px;
+    color: black;
+}
+
+h4 {
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.col-4 {
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 20%;
+    float: left;
+    position: relative;
+    margin-top: 30px;
+}
+
+.col-4 p, span{
+    float: left;
+    margin-left: 15px;
+}
+
+.clock:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/clock.png");
+    float: left;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+.local:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/local.png");
+    float: left;
+    background-repeat: no-repeat;
+    padding: 5px;
+    padding-top: 14px;
+}
+
+
+.email:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/email.png");
+    float: left;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+
+.telefone:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/telefoneico.png");
+    float: left;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+
+.footer-2 {
+    width: 100%;
+    background-color: #3f3f3f;
+    height: 80px;
+}
+
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 60%;
+    float: right;
+}

@@ -1,0 +1,209 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/slick.css">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        
+        <title> Primeiro Projeto </title>
+        <style type="text/css" id="operaUserStyle"></style>
+        <style>.img-container {text-align: center;} </style>
+    </head>
+
+    <body>
+
+        <header class = "menu-principal">
+            <main> 
+                <div class = "img-container">
+                    <img src="./img/logo.png">
+                </div>
+            </main>
+        </header>
+
+        <main class="menu-urls">
+            <div class="menu">
+                <ul>
+                    <li><a href="../Inicial/index.html">Inicio</a></li>
+                    <li><a href="../Emprestimos/index.html">Empréstimos</a></li>
+                    <li><a href="../Cliente/index.html">Seja nosso cliente</a></li>
+                </ul>
+            </div>
+        </main>
+
+        <div class="menu-servicos">
+            <div class="content">    
+                <div class="col-1 bloco-texto">
+                    <h2>EMPRÉSTIMO PESSOAL</h2>
+                    <p> ○ empréstimo pessoal, também conhecido como crédito pessoal, é um produto
+                        financeiro voltado para a pessoa física que precisa do dinheiro em espécie 
+                        por algum motivo, que pode ser a quitação de dívidas, a reforma da casa 
+                        ou o investimento no próprio negócio.</p>
+                </div>
+                <div clas = "col-1 img">
+                    <img src = "./img/pessoal.png"/>
+                </div>
+
+                <div class="col-2 bloco-texto">
+                    <h2>EMPRÉSTIMO CONSIGNADO</h2>
+                    <p> O empréstimo consignado é uma modalidade de empréstimo em que as parcelas 
+                        são descontadas diretamente da folha de pagamento ou contracheque. A taxa 
+                        de juros é menor se comparada a outras modalidades de empréstimo, seu prazo 
+                        para quitação varia conforme o convênio celebrado entre o banco e o empregador. </p>
+                </div>
+                <div clas = "col-2 img">
+                    <img src = "./img/emprestimo.png">
+                </div>
+            </div>
+        </div>
+
+        <form class = "menu-simulacao">
+            <div class = "emprestimo">
+                <div class = "titulo">
+                    <h2>SIMULAÇÃO DE EMPRÉSTIMO</h2>
+                </div>
+                <div class = "tipoEmprestimo">
+                    <div class = "tipo">
+                        <p>Tipo de empréstimo</p>
+                    </div>
+                    <div class = "opcoes">
+                        <input type="radio" id="emp" name="opcoes-emprestimo" value="EMP">
+                        <label for="emp">Empréstimo pessoal</label>
+                    </div>
+                    <input type="radio" id="emc" name="opcoes-curso" value="EMC">
+                    <label for="emc">Empréstimo consignado</label>
+                </div>
+                <div class="simulacao">
+                    <div class = "valorInput">
+                        <input placeholder="valor desejado" type="text" />
+                    </div>
+                    <div class = "qtdMeses">    
+                        <input placeholder="quantidade de meses" type="text" />
+                    </div>
+                    <div class = "resultado">
+                        <input placeholder="valor da parcela" type="text" />
+                    </div>
+                </div>
+            </div>
+        </form>
+
+            <div class = "containerMain">   
+                <h1>PERGUNTAS FREGUENTES</h1>
+
+                <div class = "inicioDuvidas">
+                    <input type="checkbox" name="pergunta" id="pergunta-01">
+                    <label for="pergunta-01">
+                        <h2>01</h2>
+                        <h3>Quais são os pré-requisitos para solicitar o empréstimo?</h3>
+                    </label>
+                    <div class="content">
+                        <p> Os pré-requisitos para contratar o seu
+                            crédito pessoal são:
+                            Ser maior de 18 anos;
+                            Apresentar documento oficial com
+                            foto (são válidos o RG, a CNH, a CTPS
+                            e o passaporte);
+                            Ter uma conta bancária (exceto conta
+                            salário);
+                            Ter um comprovante de renda (são
+                            válidos o holerite, a declaração do
+                            imposto de renda, o pró-labore ou
+                            extrato bancário)
+                            Ter um comprovante de residência;</p>
+                    </div>   
+                </div>
+                
+                <div class = "inicioDuvidas">
+                    <input type="checkbox" name="pergunta" id="pergunta-02">
+                    <label for="pergunta-02">
+                        <h2>02</h2>
+                        <h3>Quais são as taxas de juros das modalidades de empréstimo?</h3>
+                    </label>
+                    <div class="content">
+                        <p> No empréstimo com garantia de
+                            imóvel, as taxas são a partir de 1,09%
+                            ao mês + IPCA. Já no empréstimo
+                            com garantia de veículo, os juros são
+                            a partir de 1,49% ao mês</p>
+                    </div>   
+                </div>
+
+                <div class = "inicioDuvidas">
+                    <input type="checkbox" name="pergunta" id="pergunta-03">
+                    <label for="pergunta-03">
+                        <h2>03</h2>
+                        <h3>Qual é o valor máximo do empréstimo?</h3>
+                    </label>
+                    <div class="content">
+                        <p> Você pode pegar de R$ 5 mil a R$
+                            150 mil no empréstimo com garantia
+                            de automóvel e de R$ 50 mil a R$ 3
+                            milhões no empréstimo com garantia
+                            de imóvel. </p>
+                    </div>   
+                </div>
+                <div class = "inicioDuvidas">
+                    <input type="checkbox" name="pergunta" id="pergunta-04">
+                    <label for="pergunta-04">
+                        <h2>04</h2>
+                        <h3>Posso compor renda? Ou, seja, usar duas ou mais rendas para pedir o empréstimo?</h3>
+                    </label>
+                    <div class="content">
+                        <p> Sim, mas somente na modalidade de empréstimo com garantia de imóvel. 
+                            Nela, você pode compor renda com seu marido, esposa, companheiro de união 
+                            estável ou parentes de primeiro grau (irmãos, pais ou filhos). </p>
+                    </div>   
+                </div>
+            </div>
+
+        <footer>
+            <main class ="col-100 footer">
+                <div class = "content-footer">
+                    <div class = "col-4"> 
+                        <h4><b>Popular post</b></h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing</p>
+                        <span class = "clock"> 22-December 2023</span>
+
+                        <p>Lorem Ipsum is simply dummy text of the printing</p>
+                        <span class = "clock"> 22-December 2023</span>
+                    </div>
+                    <div class = "col-4"> 
+                        <h4><b>Tags</b></h4>
+                        <p>apps <b>blog</b> blogroll christmas cms coda concert <b>daily design </b> develop dialog drinks envato food fun
+                            gallery gift holiday icon <b>illustration</b>ipad iphone journal <b>jquery</b> label link marketing mobile
+                            motion music photo <b>profession</b> quotation recipes show sound strategy tv typography <b>video</b></p>
+                    </div>
+                    <div class = "col-4"> 
+                        <h4><b>A little about us</b></h4>
+                        <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even slightly
+                            believable.
+                            If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.
+                        </p>
+                    </div>
+                    <div class = "col-4"> 
+                        <h4><b>Get in touch</b></h4>
+                        <p>Lorem Ipsum is simply dummy
+                            of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                            text ever since.
+                        </p>
+                        <span class = "local"> Minas Gerais, Brasil</span>
+                        <span class = "email"> email@email.com</span>
+                        <span class = "telefone"> 890-09880-45590</span>
+
+                    </div>
+                </div>
+            </main>
+        </footer>
+        <div class="footer-2">
+            <div class="redes-sociais">
+                <ul>
+                    <li> <a href="https://www.facebook.com/groups/welovepanda/permalink/3338480763043461/?mibextid=c7yyfP"> <img src="./img/facebook.png"> </a> </li>
+                    <li> <a href="https://www.instagram.com/p/Cd34lL9p7pu/"> <img src="./img/instagram.png"> </a> </li>
+                    <li> <a href="https://twitter.com/gatinarios/status/1738196829026566192"> <img src="./img/twitter.png"> </a> </li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript" src="./js/jquery-migrate.js"></script>
+        <script type="text/javascript" src="./js/slick-min.js"></script>  
+        <script type = "text/javascript" src = "js/main.js"></script>
+    </body>
+</html>

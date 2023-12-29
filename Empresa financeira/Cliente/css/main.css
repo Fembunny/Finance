@@ -1,0 +1,372 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important; 
+}
+
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #C0C0C0;
+    height: 90px;
+}
+
+.logo {
+    padding: 0px;
+    width: 7%;
+}
+
+.menu {
+    width: 62%;
+    float: right;
+}
+
+.menu-urls {
+    height: 58px;
+    border-bottom: 3px solid #efefef;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 17px;
+    height: 41px;
+}
+    
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+    
+.menu ul li a:hover {
+    color: #00bac6;     
+}
+    
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+
+.slider {
+    width: 100%;
+    height: 420px;
+    float: right;
+    position: relative;
+    padding: 0px 0px 90px 0px;
+}
+
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/anterior.png);
+    top: 40%;
+    left: 15%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/proximo.png);
+    top: 40%;
+    right: 15%;
+}
+
+.slick-list {
+    width: 100%!important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 2px solid #ffffff;
+    width: 19px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 380px;
+}
+
+li.slick-active button {
+     background-color: #00bac6;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.texto-destaque h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #00bac6;
+
+}
+
+.texto-destaque p {
+    font-size: 20px;
+    color: #9a9a9a;
+}
+
+
+.sejaCliente {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    height: 520px;
+    padding-top: 70px;
+}
+
+.menu-cadastro  {
+    background-color: #efefef;
+    width: 700px;
+    margin: 0 auto;
+    height: 350px;;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 80px 20px 80px
+
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    padding-top: 20px;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px, 1px, 6px #8b8b8b;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #00bac6;
+}
+
+
+.input-box label {
+    color: #00bac6;
+}
+
+.servicos {
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px, 1px, 6px #8b8b8b;
+    
+}
+
+select {
+    appearance: none;
+
+}
+
+.servicos  select {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px, 1px, 6px #8b8b8b;
+}
+
+.servicos  select:hover {
+    background-color: #ffffff;
+}
+
+.servicos  select:focus-visible {
+    outline: 1px solid #00bac6;
+}
+
+.gender-group {
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    padding-top: 59px;
+    padding-right: 30px;
+    color: #00bac6;
+}
+
+.gender-group label {
+    color: #00bac6;
+    font-size: 20px;
+}
+
+
+
+.cadastrar-buttom button{
+    width: 100%;
+    border: none;
+    background-color: #00bac6;
+    padding: 0.62rem;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+}
+
+.cadastrar-buttom button:hover {
+    background-color: aqua;
+}
+
+.cadastrar-buttom button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+.content-footer {
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+}
+
+.footer {
+    text-align: left;
+    width: 100%;
+    background-color: #C0C0C0;
+    height: 350px;
+    color: black;
+}
+
+h4 {
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.col-4 {
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 20%;
+    float: left;
+    position: relative;
+    margin-top: 20px;
+}
+
+.col-4 p, span{
+    float: left;
+    margin-left: 15px;
+}
+
+.clock:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/clock.png");
+    float: left;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+.local:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/local.png");
+    float: left;
+    background-repeat: no-repeat;
+    padding: 5px;
+    padding-top: 14px;
+}
+
+
+.email:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/email.png");
+    float: left;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+
+.telefone:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../img/telefoneico.png");
+    float: left;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+
+.footer-2 {
+    width: 100%;
+    background-color: #3f3f3f;
+    height: 80px;
+}
+
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 60%;
+    float: right;
+}
